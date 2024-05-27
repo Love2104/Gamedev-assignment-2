@@ -11,53 +11,34 @@ This project implements a 3D vector manipulation library in C++. It provides var
 
 1. **Scalar Multiplication**
    - Description: Performs scalar multiplication on a 3D vector.
-   - Method: `scalar_multiplication`
-   - Usage: `Vector3D scalar_multiplication(float s)`
+   - Method: `multiply`
+   - Usage: `Vector multiply(float scalar)`
 
 2. **Scalar Division**
    - Description: Performs scalar division on a 3D vector.
-   - Method: `scalar_division`
-   - Usage: `Vector3D scalar_division(float s)`
+   - Method: `divide`
+   - Usage:   `Vector divide(float scalar) `
 
-3. **Vector Addition**
-   - Description: Adds two 3D vectors together.
-   - Method: `vector_addition`
-   - Usage: `Vector3D vector_addition(const Vector3D& vector2)`
-
-4. **Vector Subtraction**
-   - Description: Subtracts one 3D vector from another.
-   - Method: `vector_subtraction`
-   - Usage: `Vector3D vector_subtraction(const Vector3D& vector2)`
-
-5. **Dot Product**
+3. **Dot Product**
    - Description: Calculates the dot product of two 3D vectors.
-   - Method: `dot_product`
-   - Usage: `ft dot_product(const Vector3D& vector2)`
+   - Method: `dotProduct`
+   - Usage: `float dotProduct(Vector other)`
 
-6. **Vector Product (Cross Product)**
+4. **Cross Product (Cross Product)**
    - Description: Calculates the cross product of two 3D vectors.
-   - Method: `vector_product`
-   - Usage: `Vector3D vector_product(const Vector3D& vector2)`
+   - Method: `crossProduct`
+   - Usage: `Vector crossProduct(Vector other)`
 
-7. **Reverse Direction**
+5. **Reverse Direction**
    - Description: Reverses the direction of a 3D vector.
-   - Method: `reverse_direction`
-   - Usage: `Vector3D reverse_direction()`
+   - Method: ` Vector reverse()`
+   - Usage: `reverse()`
 
-8. **Component Multiplication**
-   - Description: Multiplies corresponding components of two 3D vectors.
-   - Method: `component_multiplication`
-   - Usage: `Vector3D component_multiplication(const Vector3D& vector2)`
 
-9. **Modulus Calculation**
-   - Description: Calculates the modulus (length) of a 3D vector.
-   - Method: `modulus`
-   - Usage: `ft modulus()`
-
-10. **Scalar Triple Product**
+6. **Scalar Triple Product**
     - Description: Calculates the scalar triple product of three 3D vectors.
-    - Method: `scalar_triple_product`
-    - Usage: `ft scalar_triple_product(const Vector3D& vector2, const Vector3D& vector3)`
+    - Method: `stp(vector2, vector3)`
+    - Usage: `float stp(Vector b, Vector c) `
 
 11. **Unit Vector**
     - Description: Calculates the unit vector of a 3D vector.
